@@ -73,7 +73,7 @@
 * Each number or word should be separated by a space
 * You are allowed to use the standard library
 
-###10. Triangles
+### 10. Triangles
 ### Write a function that prints a triangle, followed by a new line.
 
 * Prototype: void print_triangle(int size);
