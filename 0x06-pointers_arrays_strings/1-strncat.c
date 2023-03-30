@@ -4,10 +4,8 @@
  * _strncat - concatenates two strings based on n
  * @dest: destination string
  * @src: source string
- * @n: number of characters to be appeneded
+ * @n: number of characters to be appended
  * Return: concatenated string
- *
- *
  */
 
 char *_strncat(char *dest, char *src, int n)
