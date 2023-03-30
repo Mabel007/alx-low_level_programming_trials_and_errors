@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	int srclen = 0;
 	int i;
 
-	for (i = 0; i <= dest[i] != '\0'; i++)
+	for (i = 0; i != '\0'; i++)
 		destlen++;
 	for (i = 0; src[i] != '\0'; i++)
 		srclen++;
