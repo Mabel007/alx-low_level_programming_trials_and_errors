@@ -3,7 +3,7 @@
 /**
  * _print_rev_recursion -  prints a string in reverse.
  * @s: The string to be printed in reverse
- * Return: Alwyas 0 (Success)
+ * Return: Always 0 (Success)
  */
 void _print_rev_recursion(char *s)
 {
@@ -11,7 +11,8 @@ void _print_rev_recursion(char *s)
 	{
 		return;
 	}
-	_print_rev_recursion(s + 1);
+	s++;
+	_print_rev_recursion(s);
 	s--;
 	_putchar(*s);
 }
